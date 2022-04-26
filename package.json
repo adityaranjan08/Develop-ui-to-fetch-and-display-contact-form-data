@@ -1,0 +1,20 @@
+{
+  "name": "develop-ui-to-fetch-and-display-contact-form-data",
+  "version": "1.0.0",
+  "description": "Prime Solutions is an IT solutions provider company who have earned reputation in providing IT solutions in different business domains",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@myrepos.stackroute.niit.com:722916_Aditya/develop-ui-to-fetch-and-display-contact-form-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
