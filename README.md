@@ -1,59 +1,52 @@
-## Practice Challenge
+## Develop UI to Fetch and Display Contact Form Data: Bridging the Gap
 
-### Develop UI to Fetch and Display Contact Form Data
+This repository focuses on building a user interface (UI) component that fetches and displays data submitted through a contact form.
 
-#### Context
+**Why is this useful?**
 
-Prime Solutions is an IT solutions provider company who have earned reputation in providing IT solutions in different business domains
+* **Real-time updates:**  Users can see their submitted information displayed on the screen, providing confirmation and potentially reducing errors.
+* **Data visualization:** The UI can present contact information in a clear and organized way, making it easier to review or manage.
+* **Improved user experience:** Users can see the outcome of their form submission and have a sense of completion.
 
-Recently they have received a project to develop contact book app.
+**What's Included:**
 
-Prime Solutions have approached Graffitti designers for a good UI design.
+This repository likely contains the code for the UI component that interacts with existing contact form data. The specific details will depend on the chosen development framework. Here are some possibilities:
 
-The design is ready and now it needs to be made functional.
+* **Front-end framework (e.g., React, Angular):** The code might involve components for fetching data using APIs or state management techniques to display the retrieved information.
+* **Web development without frameworks:** The code might use vanilla JavaScript and DOM manipulation techniques to achieve the functionality.
 
-The development will be carried out in stages.
+**Getting Started:**
 
-In the first two stages, inputs are captured, validated and posted to server.
+1. **Clone the repository:**
 
-In the third stage of development, you as a frontend developer have to fetch the data and display it on UI
+   ```bash
+   git clone https://github.com/adityaranjan08/Develop-ui-to-fetch-and-display-contact-form-data.git
+   ```
 
-##### Contact Form
+2. **Set up your environment:**
 
-Graffitti Designers have designed contact form that allows app users to provide inputs
+   - Install necessary dependencies (likely mentioned in a requirements file or instructions within the code).
+   - You might need additional tools depending on the chosen framework (e.g., Node.js and npm for front-end frameworks).
 
-#### Challenge
+3. **Explore the code:** The codebase will likely consist of UI components responsible for fetching and displaying contact data.
 
-The contact form currently has fields that captures basic contact details.
+4. **Run the application:**  
+   - Follow the instructions within the repository to execute the code and see the UI functionality in action. (This might involve starting a local development server).
 
-However, more fields can be added going forward
+**Learning Objectives:**
 
-For a lengthy form, it would not be recommended to display entire details of a contact on the page.
+By working with this repository, you can gain experience in:
 
-Instead for a cleaner UI, it would be better to display the key details such as name, email and one of the contact nos.
+* Building UI components to interact with data.
+* Potentially using APIs to fetch data from an external source (depending on implementation).
+* Understanding how to display data in a user-friendly manner.
 
-More details can be provided when user opts for it.
+**Contribution:**
 
-Hence, the UI should be accordingly developed and populated.
+If you have experience with different UI frameworks or improvements for the UI's functionality, consider contributing through pull requests!
 
+**Disclaimer:**
 
-#### Problem Statement
+This readme assumes the repository focuses on building a UI to fetch and display contact form data. Adjust the details if the content explores a different functionality.
 
-Fetch the details stored from contacts.json file through json-server
-
-Display the key details, such as 
-
-- FirstName
-- LastName
-- Email
-- Home Contact No
-
-The contact list should be arranged in the alphabetical order by the firstname
-
-The contact list should be displayed in tabular format as suggested below:
-
-![Contact List](images/contact-list.png)
-
-More contact details should be displayed in a modal view, once the + button is clicked, as suggested below.
-
-![Contact List](images/contact-details.png)
+This readme explains the purpose of the repository, the benefits of such a UI component, and what the code might involve. It provides a guide for getting started and highlights potential learning outcomes. Remember to adapt the specifics based on the actual technologies and functionalities within the Develop-ui-to-fetch-and-display-contact-form-data repository. 
